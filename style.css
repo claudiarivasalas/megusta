@@ -1,0 +1,79 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.contenedor{
+    display: flex;
+    margin-left: 300px;
+    width: 500px;
+    height: 400px;
+    flex-direction: column;
+    /* border: 0px; */
+    border-top: 3px solid black;
+    border-right:  3px solid black;
+    border-left: 3px solid black;
+
+}
+.bloque1{
+    height: 50px;
+    border-bottom: 3px solid black;
+    background-color: rgba(181, 167, 149, 0.936);
+}
+.bloque2{
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 390px;
+    height: 120px;
+    /* border: 0px; */
+    border: 3px solid black;
+}
+
+.btn{
+    background-color:rgb(223, 223, 117);
+    width: 80px;
+    height: 25px;
+    border-bottom: black;
+    margin-left: 30px;
+    border: 1px solid;
+    box-shadow: 3px 10px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+ul{
+    display:flex;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+li{
+    list-style: none;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.texto1{
+    margin-left: 200px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.texto2{
+    font-family: monospace;
+    font-size: 15px;
+    margin-right: 15px;
+}
+.texto3{
+    font-family: monospace;
+    font-size: 12px;
+    margin-left: 30px;
+}
+.margen{
+    margin-top: 20px;
+}
+.borde{
+    width: 500px;
+    background-color: rgba(181, 167, 149, 0.936);
+    height: 20px;
+    border: 3px solid black;
+    margin-left: 300px;
+}
